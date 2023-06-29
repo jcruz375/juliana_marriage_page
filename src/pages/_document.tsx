@@ -6,7 +6,7 @@ export default function Document() {
       <Head>
         <link rel="shortcut icon" href="/favicon.ico" />
         <title>
-          Cláudia e Eduardo | Casamento
+          Juliana e Ricardo | Casamento
         </title>
       </Head>
       <body>

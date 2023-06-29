@@ -1,7 +1,7 @@
 import dynamic from "next/dynamic";
 const MapComponent = dynamic(() => import('../components/local/map_component'), { ssr: false });
 import Image from "next/image"
-import locationImage from "../../public/assets/espaco_vereda.png";
+import locationImage from "../../public/assets/clube_das_arabias.png";
 
 export default function Address() {
   return (
@@ -22,15 +22,15 @@ export default function Address() {
             />
             <div className="flex flex-col justify-center items-center sm:items-start ml-10 mt-5 sm:mt-0">
               <p className="font-serif text-3xl">
-                Espaço Vereda
+                Clube das Arábias
               </p>
               <p className="font-serif text-base mt-1.5">
-                13 de outubro de 2023 às 18:00
+                16 de setembro de 2023 às 12:00
               </p>
             </div>
           </header>
           <section className="mt-11 w-full">
-            <MapComponent latitude={-23.769733805244282} longitude={-46.73608448464452} />;
+            <MapComponent latitude={-23.730152296254335} longitude={-46.66384000326153} />
           </section>
         </article>
       </section>

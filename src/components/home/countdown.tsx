@@ -11,7 +11,7 @@ interface countdownDateProps {
 }
 
 export function Countdown() {
-  const [countdownDate, setCountdownDate] = useState(new Date("Oct 12, 2023 23:59:59").getTime());
+  const [countdownDate, setCountdownDate] = useState(new Date("Sept 16, 2023 12:00:00").getTime());
   const [countdownTime, setCountdownTime] = useState({} as countdownDateProps);
 
   useEffect(() => {

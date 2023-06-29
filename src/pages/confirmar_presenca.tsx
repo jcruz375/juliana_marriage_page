@@ -31,7 +31,7 @@ export default function Presence() {
           const docRef = await addDoc(collection(db, "guests"), {
             name,
             isConfirmed: isConfirmed ? 'Sim' : 'Não',
-            total_adults: totalAdults,
+            total_adults: isConfirmed ? totalAdults : 0,
             email,
             phone: phoneNumber
           });
