@@ -46,7 +46,7 @@ export function Layout({ children }: layoutPropsType) {
               Nossa história
             </p>
           </Link>
-          <Link target="_blank" href="https://julianaericardo.smartpos.app/">
+          <Link target="_blank" href="https://www.finalfeliz.de/juliiana-ricardo">
             <p className='font-serif text-2xl'>
               Presentes
             </p>
